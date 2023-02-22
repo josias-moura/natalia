@@ -17,7 +17,7 @@
 
 html, bady {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(173, 55, 55);
     font-family: var(--fonte1);
 }
 
@@ -47,6 +47,18 @@ header a, footer a {
 header a:hover, footer a:hover {
     text-decoration: underline;
     
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.420);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 section {
@@ -107,6 +119,30 @@ section#img04 {
 section#img05 {
     background-image: url(../imagens/foto3.jpg);
     background-position:  center;
+}
+
+main img {
+    width: 100%;
+}
+
+div.video{
+    width: 100%;
+}
+
+div.video {
+    background-color: rgb(236, 91, 91);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 footer {
